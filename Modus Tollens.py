@@ -8,15 +8,15 @@ Sistemas Expertos
 
 # Premisas
 
-ProsicionA = True #Si hubo fuego
-ProsicionB = True #hay cenizas
+ProposicionA = True #Si hubo fuego
+ProposicionB = True #hay cenizas
 
-Premisa1 = ProsicionA and ProsicionB # Si hubo fuego, hay cenizas
+Premisa1 = ProposicionA and ProposicionB # Si hubo fuego, hay cenizas
 Premisa2 = not ProposicionB # No hay cenizas
 
 #Modus Ponens
 
 if Premisa2 == False:
-    ProsicionA = False
+    ProposicionA = False
     conclusion = "No hubo fuego"
     print(conclusion)
