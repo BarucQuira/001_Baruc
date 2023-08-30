@@ -14,7 +14,7 @@ ProposicionB = True #hay cenizas
 Premisa1 = ProposicionA and ProposicionB # Si hubo fuego, hay cenizas
 Premisa2 = not ProposicionB # No hay cenizas
 
-#Modus Ponens
+#Modus Tollens
 
 if Premisa2 == False:
     ProposicionA = False
